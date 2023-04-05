@@ -5,3 +5,21 @@ body {
     background-color: #21326E;
     color: white;
 }
+
+#onetrust-sdk-container, #onetrust-consent-sdk {
+    font-family: 'Cera Basic' !important;
+}
+
+.ot-pc-footer-logo {
+    display: none;
+}
+
+#ot-sdk-btn-floating .ot-floating-button__front {
+    background-color: #fff !important;
+    transform: rotateY(0);
+}
+
+#ot-sdk-btn-floating .ot-floating-button__back {
+    background-color: #f18021 !important;
+    transform: rotateY(-180deg);
+}
